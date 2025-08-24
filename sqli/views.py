@@ -18,7 +18,7 @@ from sqli.utils.auth import get_auth_user, authorize
 
 log = logging.getLogger(__name__)
 
-
+# test
 @template('index.jinja2')
 async def index(request: Request):
     app: Application = request.app
